@@ -3,7 +3,7 @@ https://source.android.com/docs/core/architecture
 
 Bottom Up 방식으로 간단하게 알아보자.
 
-![Image](https://github.com/user-attachments/assets/59cb9f83-e959-433f-8dd2-93d8e515d23e)
+![Image](https://github.com/user-attachments/assets/e3e44e2b-dec4-43d8-aa55-c46e1d638fee)
 
 ### Linux Kernel
 - Android는 Linux Kernel 위에서 동작한다.
