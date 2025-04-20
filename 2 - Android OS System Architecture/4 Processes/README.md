@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 - ADB(Android Debug Bridge) : terminal을 이용해 연결된 안드로이드 기기 혹은 terminal과 통신할 수 있도록 해줌
 - MacOS는 terminal 탭에서 `adb shell ps -A`를 입력하면 실행 중인 프로세스 목록을 볼 수 있다.
 - Window는 adb.exe 파일이 있는 위치 혹은 `C:\Users\admin\AppData\Local\Android\Sdk\platform-tools`로 이동한 후 command 창에서 실행해야 한다.
-
+- 환경 변수로 adb.exe 파일이 있는 위치를 등록해주면 adb.exe 파일이 없는 위치에서도 adb 명령어를 실행할 수 있다.
 ![Image](https://github.com/user-attachments/assets/129c8fd0-439f-44f1-b372-46465b1eeeed)
 
 - `adb shell am force-stop com.dothebestmayb.composestudy`와 같은 명령어를 이용해 프로세스를 강제 종료할 수 있다.
